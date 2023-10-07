@@ -1,0 +1,73 @@
+!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segunda Temporada-Padrões Web</title>
+</head>
+<body>
+    <h1>Alunos</h1>
+    <ol>
+    <li>Tuany Rodrigues</li>
+    <li>Adriana Barbosa</li>
+    <li>Gelson Nobre</li>
+    <li>David Wesley</li>
+    <li>Kevin Magalhães</li>
+    </ol>
+<br>
+<h1>Questionário</h1>
+<p> <b>1) Na tag <input> com atributo type="text", para que serve o atributo "placeholder"?</p></b>
+ <p aling="right">O atributo "placeholder" no elemento
+    com o atributo type="text" é usado para fornecer um texto de exemplo ou uma dica para o usuário sobre o que deve ser inserido no campo de texto.
+ Esse texto geralmente aparece em cinza claro dentro do campo de texto e desaparece quando o usuário começa a digitar. O objetivo do atributo "placeholder" é fornecer orientação aos usuários sobre o formato ou conteúdo esperado no campo de texto.</p> 
+ <p><b>2) Na tag <input> com atributo type="radio" ou type="checkbox", para que serve o atributo "checked"?</p></b>  
+<p>O atributo "checked" no elemento
+    com os atributos type="radio" ou type="checkbox" é usado para definir se o campo de seleção deve ser inicialmente marcado ou selecionado.
+     Quando o atributo "checked" estiver incluído, o campo de seleção será exibido como selecionado ou marcado por padrão. Isso é útil quando você deseja fornecer uma opção pré-selecionada para o usuário ou quando deseja que uma opção específica seja definida por padrão.</p>
+     <p><b>3) Na tag <input> para que serve o atributo "value"?</p></b>
+     <p> atributo "valor" no elemento
+        é usado para definir o valor associado ao campo de entrada. O valor definido no atributo "value" será enviado junto com o formulário quando o usuário enviar os dados. 
+        Além disso, o valor definido no atributo "value" também é exibido como o valor padrão no campo de entrada.
+        
+        Por exemplo, em um campo de texto, o atributo "valor" pode ser usado para definir um valor inicial. Em um campo de seleção (como radio ou checkbox), o atributo "value" define o valor que será enviado para o servidor quando a opção for selecionada.
+        O atributo "value" é útil para fornecer um valor padrão ou pré-definido para o usuário, bem como para enviar e processar os dados do formulário.
+      
+     </p>
+     <p><b>4) Para que serve a tag <label>? Para que serve o atributo "for" nessa tag?</p></b>
+        Para agrupar vários botões de rádio em um formulário de modo que apenas um deles fique marcado de cada vez, você deve usar o atributo "name" com o mesmo valor para todos os botões de rádio que deseja agrupar.
+       <ul>
+
+        Por exemplo:
+
+<li style="square">Opção 1</li>
+<li>Opção 2</li>
+<li>Opção 3</li>
+</ul>
+Neste exemplo, todos os botões de rádio têm o atributo "nome" definido como "opção". Isso garante que apenas um botão de rádio possa ser selecionado de cada vez dentro do grupo. Quando o usuário seleciona um botão de rádio, os outros botões dentro do mesmo grupo são automaticamente desmarcados.
+        <p><b>5) Para que serve a tag &lsaquo;label&rsaquo;? Para que serve o atributo "for" nessa tag?</p></b>
+            <p>Uma etiqueta é usado para criar um rótulo associado a um elemento de formulário, como um campo de entrada (
+                ), uma caixa de seleção (
+                Neste exemplo, o rótulo "Nome:" está associado ao campo de texto através do atributo "for" com o valor "nome". 
+                Quando o usuário clica no rótulo, o foco é transferido para o campo de texto correspondente, facilitando a interação do usuário com o formulário. Além disso, ao clicar no rótulo, o campo de texto também é selecionado, o que é útil para melhorar a experiência do usuário em dispositivos móveis ou para pessoas com dificuldades motoras.</p>
+                <p><b>6) Na tag &lsaquo;option&rsaquo; para que serve o atributo "selected"?</b></p>
+                    <p>O elemento HTML select (&lsaquo;select&rsaquo;) representa um controle que apresenta um menu de opções. As opções dentro do menu são representadas pelo elemento &lsaquo;option&rsaquo; , que podem ser agrupados por elementos &lsaquo;optgroup&rsaquo; . As opções podem ser pré-selecionadas para o usuário.</p>
+                    <p><b>7) Nas tags de formulário para que serve o atributo "required"?</b></p>
+                    <P>Esse é um atributo booleano usado para indicar que um determinando campo de formulário é obrigatório para o envio do mesmo.</P>
+                    <P><B>8) Para que serve a tag &lsaquo;textarea&rsaquo;?</B></P>
+                    <p>O elemento HTML &lsaquo;textarea&rsaquo; representa um controle de edição para uma caixa de texto, útil quando você quer permitir ao usuário informar um texto extenso em formato livre, como um comentário ou formulário de retorno.</p>
+                        <p><b>9) Na tag &lsaquo;form&rsaquo; para que serve o atributo "action"?</p></b>
+                        <p>O atributo action define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados. O atributo method define qual o método HTTP para enviar os dados (ele pode ser "GET" ou "POST" (veja as diferenças aqui)</p>
+                        <p><b>10) Na tag &lsaquo;form&rsaquo; para que serve o atributo "method"? </b></p>
+                        <p>O atributo action define o local (uma URL) em que os dados recolhidos do formulário devem ser enviados. O atributo method define qual o método HTTP para enviar os dados (ele pode ser "GET" ou "POST" (veja as diferenças aqui).</p>
+                        <p><b>11) Para que o valor digitado de uma senha não apareça na barra de endereços do navegador, qual deve ser o valor do atributo "method" na tag &lsaquo;form&rsaquo;?</b></p>
+                        <p>O valor do atributo "method" na tag
+                            não está relacionado à visibilidade da senha na barra de endereços do navegador. O atributo "method" define o método HTTP que será usado para enviar os dados do formulário para o servidor. Para ocultar a senha na barra de endereços, você deve usar uma conexão HTTPS segura.</p>
+                            <p><b>12) Qual valor deve ser informado no atributo "method" na tag <form> em um formulário que será usado para fazer upload de arquivos?</b></p>
+                                <p>O valor do atributo "method" na tag
+                                    para fazer upload de arquivos deve ser "POST".</p>
+                                    <p><b>13) O que as tags &lsaquo;fieldset&rsaquo;e &lsaquo;legend&rsaquo; produzem?</b></p>
+                                    <p>Tanto a tag &lsaquo;fieldset&rsaquo; quanto a tag &lsaquo;legend&rsaquo; podem receber os atributos id , class , title , style , dir , lang e acceskey , e os eventos onclick , ondblclick , onmousedown , onmouseup , onmouseover , onmousemove , onmouseout , onkeypress , onkeydown e onkeyup</p>
+
+
+    </body>
+</html>
